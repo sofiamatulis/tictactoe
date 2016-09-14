@@ -7,10 +7,15 @@ $(function(){
 
 
   $('.square').on('click', function() {
+    markSquare(this)
+    checkWinner()
+  });
 
 
+  function markSquare(square) {
 
-    var self = $(this);
+
+    var self = $(square);
 
     // how you store a state:
 
@@ -31,15 +36,22 @@ $(function(){
     alert("I'm sorry");
   }
 
-  });
+    console.log("mark class");
 
-  $('.square').click ( function() {checkWinner() });
+  }
 
-      var self = $(this);
 
       function checkWinner(){
 
+        if ($('.top').children().hasClass("x")) {
+
+          console.log("check winner");
+
+
+
       }
+
+    }
 
 
 
