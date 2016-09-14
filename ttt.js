@@ -138,6 +138,19 @@ else if
 
     }
 
+//or: 
+ //    function checkWinner() {
+ // if ( $('.top').children('.x').length === 3 ) {
+ //   alert("winner!");
+ //   }
+ // else if ( $('.middle').children('.x').length === 3 ) {
+ //   alert("winner!");
+ //   }
+ // else if ( $('.bottom').children('.x').length === 3 ) {
+ //   alert("winner!");
+ //   }
+ // }
+
 
 
 
