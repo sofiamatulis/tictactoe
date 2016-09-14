@@ -36,20 +36,58 @@ $(function(){
     alert("I'm sorry");
   }
 
-    console.log("mark class");
+    // console.log("mark class");
 
   }
 
 
       function checkWinner(){
 
-        if ($('.top').children().hasClass("x")) {
+        if (($('.top .right').hasClass("x") && $('.top .center').hasClass("x") && $('.top .left').hasClass("x"))) {
 
-          console.log("check winner");
+                  alert("X is the Winner");
 
+        }
 
+       else if
+      (($('.top .right').hasClass("x") && $('.middle .right').hasClass("x") && $('.bottom .right').hasClass("x"))) {
+
+                alert("X is the Winner");
 
       }
+
+    else if
+    (($('.bottom .right').hasClass("x") && $('.bottom .center').hasClass("x") && $('.bottom .left').hasClass("x"))) {
+
+              alert("X is the Winner");
+
+    }
+
+else if
+  (($('.top .left').hasClass("x") && $('.middle .left').hasClass("x") && $('.bottom .left').hasClass("x"))) {
+
+            alert("X is the Winner");
+
+}
+
+else if
+  (($('.top .left').hasClass("x") && $('.middle .center').hasClass("x") && $('.bottom .right').hasClass("x"))) {
+
+            alert("X is the Winner");
+
+}
+
+else if
+  (($('.bottom .left').hasClass("x") && $('.middle .center').hasClass("x") && $('.top.right').hasClass("x"))) {
+
+            alert("X is the Winner");
+
+}
+
+
+
+
+
 
     }
 
