@@ -4,7 +4,9 @@ $(function()
 {
   $('.square').on('click',function() {
 
-    alert("A square was clicked");
+//this calls on the square. dom element in which the event occured!!
+    $(this).text('X');
+
 
   });
 
