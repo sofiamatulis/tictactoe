@@ -84,6 +84,53 @@ else if
 
 }
 
+//now lets do the o side
+
+
+
+  else if (($('.top .right').hasClass("o") && $('.top .center').hasClass("o") && $('.top .left').hasClass("o"))) {
+
+            alert("O is the Winner");
+
+  }
+
+ else if
+(($('.top .right').hasClass("o") && $('.middle .right').hasClass("o") && $('.bottom .right').hasClass("o"))) {
+
+          alert("O is the Winner");
+
+}
+
+else if
+(($('.bottom .right').hasClass("o") && $('.bottom .center').hasClass("o") && $('.bottom .left').hasClass("o"))) {
+
+        alert("O is the Winner");
+
+}
+
+else if
+(($('.top .left').hasClass("o") && $('.middle .left').hasClass("o") && $('.bottom .left').hasClass("o"))) {
+
+      alert("O is the Winner");
+
+}
+
+else if
+(($('.top .left').hasClass("o") && $('.middle .center').hasClass("o") && $('.bottom .right').hasClass("o"))) {
+
+      alert("O is the Winner");
+
+}
+
+else if
+(($('.bottom .left').hasClass("o") && $('.middle .center').hasClass("o") && $('.top.right').hasClass("o"))) {
+
+      alert("O is the Winner");
+
+}
+
+
+
 
 
 
